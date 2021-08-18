@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro Timer</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="timer">
+      <!-- Heading -->
+      <h2 id="header">Pomodoro timer</h2>
+      <!-- Timer -->
+      <div class="time-section">
+        <div class="min">
+          <p>25</p>
+        </div>
+        <div class="semicol">
+          <p>:</p>
+        </div>
+        <div class="sec">
+          <p>00</p>
+        </div>
+      </div>
+      <!-- Timer btn -->
+      <div class="btn-section">
+        <p class="play"><i class="fas fa-play"></i></p>
+        <p class="pause"><i class="fas fa-pause"></i></p>
+        <a href="index.html"><i class="fas fa-redo-alt"></i></a>
+      </div>
+    </div>
     <script src="./javascript/main.js"></script>
-</body>
+  </body>
 </html>
