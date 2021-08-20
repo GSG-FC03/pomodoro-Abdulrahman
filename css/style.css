@@ -44,7 +44,7 @@
 }
 .min,
 .sec,
-.semicol {
+.colon {
   width: 150px;
   height: 150px;
   display: inline-flex;
@@ -74,4 +74,18 @@
 .fa-pause:hover {
   color: rgb(2, 0, 36);
   transition: 0.3s ease;
+}
+.show_msg{
+  font-family: "Style Script", cursive;
+  font-size: 25px;
+  display: block;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #272343;
+  background:#e3f6f5;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+}
+#counter{
+  display: none;
 }
