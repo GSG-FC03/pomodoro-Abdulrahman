@@ -41,14 +41,14 @@ body {
   display: none;
 } 
 #message {
-  color: #ddd;
-  font-size: 50px;
+  color: rgb(177, 177, 177);
+  font-size: 80px;
   margin-bottom: 20px;
 }
 
 #timer {
   color: #ddd;
-  font-size: 200px;
+  font-size: 150px;
   margin-bottom: 40px;
 }
 

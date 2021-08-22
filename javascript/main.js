@@ -75,6 +75,7 @@ function counter() {
       message.innerHTML = "Break";
       document.body.style.background = "red"
       bellShort.play();
+      start.focus();
       count++;
       document.querySelector('#counter').textContent++;
     } else if (mode == "cooldownBreak") {
