@@ -108,7 +108,7 @@ function counter() {
 // start timer
 function startTimer() {
   // start timer
-  countdownID = setInterval("counter()", 10);
+  countdownID = setInterval("counter()", 1000);
   // show stop button
   start.style.display = "none"; 
   stop.style.display = "inline-block "; 
