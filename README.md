@@ -6,12 +6,12 @@ A Pomodoro timer is a simple application that keeps you focused and productive b
 - App Repo Link on Github:[Here](https://github.com/GSG-FC03/pomodoro-Abdulrahman)
 ## ✧ Design
 - WireFrame:[Here] https://wireframe.cc/pro/pp/30559310d465817
-# Tech stack and the purpose of it
+## ✧ Tech stack and the purpose of it
 * Html ➙ To make the structure of the website.<br>
 * Css ➙ To add colors, position ..etc to the elements.<br>
 * JS ➙ To the make the page more interactive.<br>
 
-# Made by 
+## ✧ Made by 
 - [Abdulrahman Kallousa](https://github.com/abdulrahman-2020)
 ## ✧Mentors
 All deep thanks for the the valuable efforts of the mentors:
