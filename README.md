@@ -1,5 +1,5 @@
 # pomodoro-Abdulrahman
-# The idea of the app
+## ✧ The idea of the app
 A Pomodoro timer is a simple application that keeps you focused and productive by scheduling work and break sessions consecutively. Traditionally, you have 25-minute focus sessions followed by five-minute breaks and a longer 15-minute break after four consecutive focus sessions.
 ## ✧ Links
 - App Live link: [Here](https://gsg-fc03.github.io/pomodoro-Abdulrahman/)
