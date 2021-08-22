@@ -18,25 +18,24 @@
     <div class="timer">
       <!-- Heading -->
       <h2 id="header">Pomodoro timer</h2>
-      <!-- Timer -->
-      <div class="time-section">
-        <div class="min">
-          <p>25</p>
+      <!--Cycle Counter-->
+      <p id="counter">0</p>
+        <audio src="./Assets/RZFWLXE-bell-hop-bell.mp3"></audio>
+        <div id="message">Work</div>
+    
+        <div id="timer">
+          <span id="minutes">25</span>
+          <span id="middle">:</span>
+          <span id="seconds">00</span>
         </div>
-        <div class="semicol">
-          <p>:</p>
+    
+        <div id="buttons">
+          <button id="start"><i class="fas fa-play"></i></button>
+          <button id="stop"><i class="fas fa-pause"></i></button>
+          <button id="reset"><i class="fas fa-redo-alt"></i></button>
         </div>
-        <div class="sec">
-          <p>00</p>
-        </div>
-      </div>
-      <!-- Timer btn -->
-      <div class="btn-section">
-        <p class="play"><i class="fas fa-play"></i></p>
-        <p class="pause"><i class="fas fa-pause"></i></p>
-        <a href="index.html"><i class="fas fa-redo-alt"></i></a>
-      </div>
-    </div>
+    
+        <div id="test"></div>
     <script src="./javascript/main.js"></script>
   </body>
 </html>
